@@ -1,0 +1,9 @@
+html {
+	@include breakpoint($breakpoint-small) 		  	{font-size: 0.75 * $base-font-size;}
+	@include breakpoint($breakpoint-small-medium) 	{font-size: 0.875 * $base-font-size;}
+	@include breakpoint($breakpoint-medium) 		{font-size: 1 * $base-font-size;}
+	@include breakpoint($breakpoint-medium-wide) 	{font-size: 1 * $base-font-size;}
+	@include breakpoint($breakpoint-wide) 			{font-size: 1 * $base-font-size;}
+	@include breakpoint($breakpoint-wide-huge) 		{font-size: 1.25 * $base-font-size;}
+	@include breakpoint($breakpoint-huge) 			{font-size: 1.5 * $base-font-size;}
+ 	}
